@@ -1,0 +1,22 @@
+// swift-tools-version:5.9
+import PackageDescription
+
+let package = Package(
+    name: "TwolRewardSDK",
+    platforms: [
+        .iOS(.v15)
+    ],
+    products: [
+        .library(
+            name: "TwolRewardSDK",
+            targets: ["TwolRewardSDK"]
+        )
+    ],
+    targets: [
+        .binaryTarget(
+            name: "TwolRewardSDK",
+            url: "https://github.com/twolReward/Twol-Reward-SDK-IOS/releases/download/VERSION_PLACEHOLDER/TwolRewardSDK.xcframework.zip",
+            checksum: "CHECKSUM_WILL_BE_REPLACED"
+        )
+    ]
+)
