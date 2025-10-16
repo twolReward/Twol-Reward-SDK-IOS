@@ -11,3 +11,7 @@ DerivedData/
 # Package Manager
 .swiftpm/
 Package.resolved
+
+# Backup files
+*.backup
+*.tmp
