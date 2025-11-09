@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TwolRewardSDK",
-            url: "https://github.com/twolReward/Twol-Reward-SDK-IOS/releases/download/0.1.5/TwolRewardSDK.xcframework.zip",
-            checksum: "ad44a0e03f7a8451da5abcdf7b5e071533406cd44b1c63a634f9bab63bd2da48"
+            url: "https://github.com/twolReward/Twol-Reward-SDK-IOS/releases/download/0.1.6/TwolRewardSDK.xcframework.zip",
+            checksum: "030af21d0025f137bd49ca646caf6ec18d0fd4b4778db1f00ce333e832432e45"
         )
     ]
 )
